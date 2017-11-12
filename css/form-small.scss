@@ -1,0 +1,929 @@
+// These comments are only one line long each.
+$pinkish-red: #ea212e;
+$turquoise-blue: #00bcc7;
+$white: #ffffff;
+$black: #000000;
+$white-two: #fbfbfb;
+$black-two: #202020;
+$greyish-brown: #535151;
+$greyish-brown-two: #505050;
+$black-three: #181818;
+
+.mts2-section-form {
+	margin-bottom: 100px;
+	text-align: left;
+	&__span {
+		margin-left: -54px;
+		left: 54px;
+		position: relative;
+	}
+	&__form-wrapper {
+		// border-radius: 4px;
+		// background-color: $white;
+		// border: solid 1px #ededed;
+		// padding: 56px 8.5% 75px;
+		input:focus {
+			outline: none;
+		}
+		input::-webkit-input-placeholder {
+			/* Chrome/Opera/Safari */
+			font-family: "Lato";
+			font-size: 16px;
+			letter-spacing: -0.1px;
+			text-align: left;
+			color: #888;
+			font-weight: 400;
+		}
+		input::-moz-placeholder {
+			/* Firefox 19+ */
+			font-family: "Lato";
+			font-size: 16px;
+			letter-spacing: -0.1px;
+			text-align: left;
+			color: #888;
+			font-weight: 400;
+		}
+		input:-ms-input-placeholder {
+			/* IE 10+ */
+			font-family: "Lato";
+			font-size: 16px;
+			letter-spacing: -0.1px;
+			text-align: left;
+			color: #888;
+			font-weight: 400;
+		}
+		input:-moz-placeholder {
+			/* Firefox 18- */
+			font-family: "Lato";
+			font-size: 16px;
+			letter-spacing: -0.1px;
+			text-align: left;
+			color: #888;
+			font-weight: 400;
+		}
+		.bid__form {
+			max-width: 1380px;
+			width: 100%;
+			padding: 0 15%;
+			margin-top: 0;
+		}
+		.bid__form2 {
+			margin-top: 15px;
+			padding-bottom: 50px;
+			width: 100%;
+		}
+		[name="CARD_CREDIT"] {
+			z-index: 1;
+			padding-bottom: 140px;
+		}
+		[name="BANK_KREDIT"] {
+			padding-bottom: 140px;
+		}
+		.bid__form-chapter {
+			padding-top: 45px;
+			padding-bottom: 0;
+			border-bottom: 0px solid rgba(204, 204, 204, 0.25);
+			flex-wrap: wrap;
+			display: flex;
+		}
+		.bid__form-title {
+			font-size: 34px;
+			font-family: "Futura New";
+			font-weight: bold;
+			line-height: 1.47;
+			letter-spacing: 0px;
+			text-align: left;
+			color: #000;
+			margin-bottom: 40px;
+			margin-top: 10px;
+			width: 100%;
+		}
+		.bid__form-caption {
+			font-size: 21px;
+			font-family: "Futura New";
+			font-weight: bold;
+			line-height: 1.47;
+			letter-spacing: 0px;
+			text-align: left;
+			color: #000;
+			margin-bottom: 0px;
+			margin-top: 0px;
+			width: 100%;
+			position: relative;
+		}
+
+		.bid__form-text {
+			font-family: "Lato";
+			font-size: 16px;
+			line-height: 1.69;
+			letter-spacing: -0.1px;
+			text-align: left;
+			color: #000000;
+			cursor: pointer;
+			margin-right: 35px;
+			margin-bottom: 20px;
+			font-weight: 400;
+			padding-left: 0;
+		}
+		.bid__radio-title {
+			font-size: 21px;
+			font-family: "Futura New";
+			font-weight: bold;
+			line-height: 1.47;
+			letter-spacing: 0px;
+			text-align: left;
+			color: #000;
+			margin-bottom: 10px;
+			margin-top: 0px;
+			width: 100%;
+		}
+		input[type=radio]:checked + .bid__form-text:before {
+			width: 30px;
+			background-color: #ffffff;
+			height: 30px;
+			border-radius: 50%;
+			border: 9px solid #00bcc7;
+			-webkit-transition: 200ms all ease-in-out;
+			transition: 200ms all ease-in-out;
+		}
+		.bid__form-text:before {
+			content: " ";
+			display: inline-block;
+			position: relative;
+			top: 10px;
+			margin-right: 20px;
+			left: 0px;
+			width: 30px;
+			height: 30px;
+			border-radius: 50%;
+			background-color: #fbfbfb;
+			border: solid 1px #d9d9d9;
+		}
+
+		.bid__radio-title:before {
+			display: none;
+		}
+		.bid__form-input {
+			border-radius: 4px;
+			background-color: #fafafa;
+			border: solid 1px #d8d8d8;
+			padding: 0 24px;
+			font-family: "Lato";
+			font-size: 16px;
+			letter-spacing: -0.1px;
+			text-align: left;
+			color: #000;
+			width: 100%;
+			font-weight: 400;
+			margin-top: 0px;
+			height: 76px;
+			margin-top: 15px;
+			&:before {
+				content: " ";
+				display: block;
+				margin-top: -4px;
+				pointer-events: none;
+				position: absolute;
+				right: 22px;
+				top: 31%;
+				transition: all 0.15s ease-in-out;
+				background-image: url(none), linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #fafafa 70%);
+				width: 45px;
+				height: 37px;
+				text-align: right;
+				z-index: 1;
+			}
+		}
+		.bid__form-input.inputselect,
+		[name="form_email_3031"] {
+			width: 100%;
+		}
+		[id="form_dropdown_SOGLASIE_YOU_BE"] {
+			margin-top: 15px;
+		}
+		select {
+			cursor: pointer;
+			height: 78px;
+			border-radius: 4px;
+			background-color: #fafafa;
+			border: solid 1px #d8d8d8;
+			padding: 28px 29px;
+			font-family: "Lato";
+			font-size: 18px;
+			letter-spacing: -0.1px;
+			text-align: left;
+			color: #000;
+			width: 100%;
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+			background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAAAXNSR0IArs4c6QAAAEdJREFUCB1jVLl9m/3ny8/rGf7/92TABhgZt7OL8wYyguRwKoYquqOq+hOsEKtiJEUgebhCFMVADsg6kEkgcawA5AwQRpcEAJ8GKqgDrF9fAAAAAElFTkSuQmCC')
+				96%/10px no-repeat #fafafa;
+			margin-bottom: 43px;
+		}
+		.bid__form-hint {
+			display: block;
+			margin-top: 5px;
+			font-family: Lato;
+			font-size: 13px;
+			letter-spacing: 0px;
+			text-align: left;
+			color: #888;
+		}
+		.bid__radio-content {
+			display: inline-block;
+			vertical-align: middle;
+			width: inherit;
+			width: 25%;
+		}
+		.bid__input-wrapper {
+			width: 50%;
+			padding: 0 10px;
+			& > [class="bid__form-text"] {
+				font-size: 21px;
+				font-family: "Futura New";
+				font-weight: bold;
+				line-height: 1.47;
+				letter-spacing: 0px;
+				text-align: left;
+				color: #000;
+				margin-bottom: 10px;
+				margin-top: 0px;
+				width: 100%;
+			}
+		}
+		[class="bid__input-wrapper"] {
+			width: 100%;
+		}
+		[data-group-item="kladr-house"] {
+			& .bid__form-input {
+				margin-bottom: 15px;
+			}
+		}
+		[class="bid__form-text"]:before {
+			display: none;
+		}
+		.txtDOP_PHONE {
+			width: 100%;
+		}
+		#form_text_2980 {
+			margin-top: 15px;
+		}
+		.bid__form-input-phone,
+		.bid__form-input-phone_lg {
+			width: 49%;
+		}
+		.kladr-registration {
+			list-style: none;
+			padding-left: 0;
+			display: flex;
+			width: 100%;
+			flex-wrap: wrap;
+		}
+		.fieldSearchResult {
+			width: inherit !important;
+		}
+		.fieldSearchResultWrapper {
+			position: relative;
+		}
+		img.ajaxloading {
+			position: absolute;
+			margin-left: 0;
+			right: 25px;
+			margin-top: -41px;
+		}
+		.bid__radio-content_mt {
+			margin-top: 0px;
+			width: 17%;
+		}
+		.checkbox {
+			display: none;
+			position: relative;
+			top: 0;
+			left: 0;
+		}
+		label.bid__product-text {
+			font-family: "Lato";
+			font-size: 16px;
+			line-height: 1.69;
+			letter-spacing: -0.1px;
+			text-align: left;
+			color: #000000;
+			cursor: pointer;
+			position: relative;
+			top: 0;
+			left: 0;
+			margin-bottom: 0;
+			font-weight: 400;
+			width: 100%;
+			& a {
+				color: $turquoise-blue;
+			}
+		}
+		label.bid__product-text:before {
+			content: " ";
+			background-image: url(../img/cards/mts2-cards-checkbox-un.png);
+			display: inline-block;
+			position: relative;
+			top: 9px;
+			margin-right: 20px;
+			left: 0px;
+			-webkit-transition: 200ms all ease-in-out;
+			transition: 200ms all ease-in-out;
+			width: 30px;
+			height: 30px;
+		}
+		.checkbox:checked + label.bid__product-text:before {
+			content: " ";
+			background-image: url(../img/cards/mts2-cards-checkbox.png);
+			-webkit-transition: 200ms all ease-in-out;
+			transition: 200ms all ease-in-out;
+			width: 30px;
+			height: 30px;
+		}
+		.sendFullFormButton,
+		.sendFormButton {
+			margin: inherit;
+			font-family: "Lato";
+			font-size: 16px;
+			font-weight: 900;
+			letter-spacing: -0.1px;
+			text-align: center;
+			color: #fff;
+			border-radius: 4px;
+			background-color: #ea212e;
+			padding: 25px 40px;
+			display: -webkit-inline-box;
+			display: -ms-inline-flexbox;
+			display: inline-flex;
+			margin-top: 35px;
+			-webkit-transition: 200ms all ease;
+			transition: 200ms all ease;
+			margin-left: 10px;
+		}
+
+		.error {
+			font-family: "Lato";
+			font-size: 14px;
+			letter-spacing: 0px;
+			text-align: left;
+			color: rgba(234, 33, 46, 0.78);
+			font-weight: 500;
+		}
+
+		@media (max-width: 768px) {
+			.bid__input-wrapper {
+				width: 100%;
+			}
+			.bid__form-input-phone,
+			.bid__form-input-phone_lg {
+				width: 100%;
+			}
+		}
+		& > .row {
+			max-width: 1380px;
+			margin: auto;
+		}
+	}
+
+	&__btn {
+		font-family: "Lato";
+		font-size: 16px;
+		font-weight: 900;
+		letter-spacing: -0.1px;
+		text-align: center;
+		color: #fff;
+		border-radius: 4px;
+		background-color: #ea212e;
+		padding: 25px 79px;
+		display: -webkit-inline-box;
+		display: -ms-inline-flexbox;
+		display: inline-flex;
+		margin-top: 40px;
+		outline: none;
+		border: none;
+		cursor: pointer;
+		-webkit-transition: 200ms all ease;
+		transition: 200ms all ease;
+
+		&:hover {
+			background-color: $black;
+			color: $white;
+		}
+	}
+
+	&__heading {
+		font-family: "Futura New";
+		font-size: 34px;
+		font-weight: bold;
+		line-height: 1.47;
+		letter-spacing: 0px;
+		text-align: center;
+		color: $black;
+		margin-bottom: 56px;
+	}
+
+	input::-webkit-outer-spin-button,
+	input::-webkit-inner-spin-button,
+	input::-webkit-search-cancel-button {
+		display: none;
+		-webkit-appearance: none;
+	}
+	&__checkbox {
+		display: none;
+		&:checked + label:before {
+			content: url('../img/cards/mts2-cards-checkbox.png');
+		}
+	}
+	&__checkbox-label {
+		font-family: Lato;
+		font-size: 16px;
+		line-height: 1.69;
+		letter-spacing: -0.1px;
+		text-align: left;
+		color: #000000;
+		cursor: pointer;
+		-webkit-transition: 200ms all ease-in-out;
+		transition: 200ms all ease-in-out;
+		position: relative;
+		padding-left: 40px;
+		&:before {
+			content: url(../img/cards/mts2-cards-checkbox-un.png);
+			display: inline-block;
+			position: absolute;
+			top: -3px;
+			margin-right: 70px;
+			left: 0;
+		}
+	}
+}
+
+/*======================= BID SECTION =========================*/
+.bid {
+	background-color: #f4f4f5;
+	padding-bottom: 110px;
+	padding-top: 25px;
+}
+
+.bid__headline {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.bid__subtitle {
+	text-align: center;
+}
+
+.bid__form {
+	max-width: 780px;
+	margin: auto;
+	margin-top: 27px;
+	border: 1px solid rgba(204, 204, 204, 0.51);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #fff;
+}
+
+.bid__form-chapter {
+	padding-top: 60px;
+	padding-bottom: 20px;
+	padding-left: 85px;
+	padding-right: 85px;
+	border-bottom: 1px solid rgba(204, 204, 204, 0.25);
+}
+
+@media only screen and (max-width: 768px) {
+	.bid__form-chapter {
+		padding: 30px 15px;
+	}
+}
+
+.bid__form-btn {
+	display: inline-block;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 552px) {
+	.bid__form-btn {
+		display: block;
+		margin: auto;
+	}
+}
+
+.bid__form-btn + .bid__form-btn {
+	margin-left: 20px;
+}
+
+@media only screen and (max-width: 552px) {
+	.bid__form-btn + .bid__form-btn {
+		margin-left: auto;
+		margin-top: 20px;
+	}
+}
+
+.bid__form label + label {
+	display: block;
+	margin-top: 40px;
+}
+
+.bid__form-title {
+	margin-bottom: 40px;
+	font-size: 2.2rem;
+	font-weight: 500;
+	color: #000;
+}
+
+.bid__form-title_call {
+	margin-bottom: 20px;
+}
+
+.bid__form-caption {
+	font-size: 2rem;
+	font-weight: 300;
+	color: #000;
+	margin-bottom: 20px;
+}
+
+.bid__form-caption_bold {
+	font-weight: 500;
+}
+
+.bid__form-text {
+	text-align: left;
+	color: #666;
+	font-size: 2rem;
+	font-weight: 300;
+}
+
+.bid__radio-title {
+	display: inline-block;
+	vertical-align: middle;
+	width: 190px;
+}
+
+.bid__radio-content {
+	display: inline-block;
+	vertical-align: middle;
+	width: 130px;
+}
+
+.bid__radio-content_mt {
+	margin-top: 20px;
+}
+
+.bid__form-hint {
+	display: inline-block;
+	margin-top: 5px;
+	color: #999;
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+
+.bid__form-input {
+	display: block;
+	/*width: 550px;*/
+	width: 100%;
+	height: 67px;
+	margin-top: 4px;
+	padding-left: 30px;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #f4f4f5;
+	line-height: 33px;
+	color: #333;
+	color: #666;
+	font-size: 2rem;
+	font-weight: 300;
+}
+
+.bid__form-input_call {
+	width: 240px;
+	margin-bottom: 20px;
+}
+
+.bid__form-input-phone {
+	display: inline-block;
+	width: 185px;
+}
+
+.bid__form-input-phone_lg {
+	display: inline-block;
+	width: 352px;
+	margin-left: 10px;
+}
+
+@media only screen and (max-width: 670px) {
+	.bid__form-input {
+		width: 100%;
+	}
+
+	.bid__form-input-phone_lg {
+		margin-left: 0;
+	}
+
+	.cash-back__header,
+	.cash-back__data,
+	.cash-back__sum {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+
+	.cash-back__filter {
+		float: none;
+	}
+}
+
+.bid__form-input::-webkit-input-placeholder {
+	color: #666;
+	font-size: 20px;
+	font-weight: 300;
+	-webkit-transition: color .2s ease-in;
+	-o-transition: color .2s ease-in;
+	-moz-transition: color .2s ease-in;
+	transition: color .2s ease-in;
+}
+.bid__form-input::-moz-placeholder {
+	color: #666;
+	font-size: 20px;
+	font-weight: 300;
+	-webkit-transition: color .2s ease-in;
+	-o-transition: color .2s ease-in;
+	-moz-transition: color .2s ease-in;
+	transition: color .2s ease-in;
+}
+.bid__form-input:-moz-placeholder {
+	color: #666;
+	font-size: 20px;
+	font-weight: 300;
+	-webkit-transition: color .2s ease-in;
+	-o-transition: color .2s ease-in;
+	-moz-transition: color .2s ease-in;
+	transition: color .2s ease-in;
+}
+.bid__form-input:-ms-input-placeholder {
+	color: #666;
+	font-size: 20px;
+	font-weight: 300;
+	-webkit-transition: color .2s ease-in;
+	-o-transition: color .2s ease-in;
+	-moz-transition: color .2s ease-in;
+	transition: color .2s ease-in;
+}
+
+.bid__form-input:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+.bid__form-input:focus::-moz-placeholder {
+	color: transparent;
+}
+.bid__form-input:focus:-moz-placeholder {
+	color: transparent;
+}
+.bid__form-input:focus:-ms-input-placeholder {
+	color: transparent;
+}
+
+.bid__form-radio {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+	width: 18px;
+	height: 18px;
+}
+
+.bid__product {
+	margin-bottom: 20px;
+}
+
+.bid__product::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.bid__product-photo {
+	float: left;
+	vertical-align: middle;
+	max-width: 200px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+.bid__product-info {
+	font-weight: 300;
+}
+
+.bid__product-text {
+	display: inline-block;
+	vertical-align: middle;
+	/*margin-left:220px;*/
+	font-weight: 300;
+	line-height: 2rem;
+}
+
+.bid__product-text_grey {
+	color: #666;
+}
+
+@media only screen and (max-width: 768px) {
+	.bid__product-text {
+		font-size: 1.5rem;
+		line-height: 2.3rem;
+	}
+}
+
+.bid__product-text_bold {
+	font-size: 1.8rem;
+	font-weight: 500;
+	color: #000;
+	margin-bottom: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+	.mts2-section-form__form-wrapper label.bid__product-text:before {
+		top: 17px;
+	}
+	.mts2-section-form__form-wrapper .bid__form-caption:before {
+		content: " ";
+		display: block;
+		margin-top: -4px;
+		pointer-events: none;
+		position: absolute;
+		right: 22px;
+		top: 55%;
+		transition: all 0.15s ease-in-out;
+		background-image: url(none), linear-gradient(90deg, transparent 0%, #fafafa 70%);
+		width: 45px;
+		height: 37px;
+		text-align: right;
+		z-index: 1;
+	}
+	.bid__product-text_bold {
+		font-size: 1.6rem;
+	}
+}
+
+.bid-mb {
+	margin-bottom: 40px;
+}
+
+.checkbox {
+	display: inline-block;
+	margin-top: 6px;
+	margin-right: 5px;
+}
+
+/*.bid_link {*/
+/*color: #0573fb;*/
+/*text-decoration: underline;*/
+/*}*/
+
+.bid__nubmer-wrapper {
+	margin: 20px 0;
+}
+
+.bid__number {
+	display: inline-block;
+	margin-bottom: 0;
+	margin-right: 45px;
+}
+
+.bid__edit-number {
+	display: inline-block;
+	color: #39c;
+	font-size: 2.2rem;
+	font-weight: 300;
+	border-bottom: 2px dotted #39c;
+}
+
+.bid_link:hover,
+.bid__edit-number:hover {
+	opacity: .4;
+}
+
+.bid__sms-key {
+	margin-top: 45px;
+	margin-bottom: 10px;
+}
+
+label.radio {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 28px;
+}
+
+input[type=radio] {
+	display: none;
+}
+
+label.radio:before {
+	content: "";
+	position: absolute;
+	top: 2px;
+	left: 0;
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background: url("../img/sprite.png") no-repeat 0 -104px;
+}
+
+input[type=radio]:checked + label:before {
+	background-position: 0 -126px;
+}
+
+.bid__input-wrapper {
+	margin-bottom: 16px;
+}
+
+.message {
+	max-width: 780px;
+	margin: auto;
+	padding: 55px 0 75px 85px;
+	margin-top: 40px;
+	border: 1px solid rgba(204, 204, 204, 0.51);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #fff;
+}
+
+.message__text {
+	font-size: 1.8rem;
+	font-weight: 300;
+	line-height: 3rem;
+}
+
+.message__text_bold {
+	font-weight: 500;
+}
+
+.message__time {
+	margin-top: 30px;
+	font-size: 2.2rem;
+	font-weight: 500;
+}
+
+@media (max-width: 1200px) {
+	.mts2-section-form__form-wrapper .bid__form-chapter {
+		padding-top: 0px;
+	}
+	.mts2-section-form__form-wrapper .bid__form {
+		padding: 0 0% 40px;
+	}
+	.mts2-section-form__form-wrapper .sendFullFormButton,
+	.mts2-section-form__form-wrapper .sendFormButton {
+		margin-top: 15px;
+	}
+}
+
+@media (max-width: 768px) {
+	.mts2-section-conditions .container,
+	.mts2-section-calculator .container {
+		padding: 0;
+		width: 100%;
+	}
+	.mts2-section-form__form-wrapper .bid__form-title {
+		font-size: 25px;
+		font-family: "Futura New";
+		line-height: 24px;
+		padding: 0 10px;
+	}
+	.mts2-section-form {
+		margin-bottom: 50px;
+	}
+	.mts2-section-form__form-wrapper .bid__radio-content_mt {
+		width: 100%;
+	}
+	.mts2-section-form__form-wrapper .bid__radio-content {
+		margin-right: 14px;
+	}
+	.mts2-section-form__span {
+		margin-left: -54px;
+		position: relative;
+		left: 46px;
+		width: 85%;
+		display: -webkit-inline-box;
+		display: -ms-inline-flexbox;
+		display: inline-flex;
+		flex-direction: column;
+		font-size: 13px;
+	}
+	.mts2-section-form__form-wrapper .sendFullFormButton,
+	.mts2-section-form__form-wrapper .sendFormButton {
+		margin-left: 5px;
+	}
+}
+
+.mts2-section-form__form-wrapper img.ajaxloading {
+	display: none;
+}
+
+.current {
+	overflow-x: hidden;
+}

@@ -1,0 +1,1207 @@
+// These comments are only one line long each.
+$pinkish-red: #ea212e;
+$turquoise-blue: #00bcc7;
+$white: #ffffff;
+$black: #000000;
+$white-two: #fbfbfb;
+$black-two: #202020;
+$greyish-brown: #535151;
+$greyish-brown-two: #505050;
+$black-three: #181818;
+
+.mts-hash-0003a {
+  .col-md-6 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .mts2-navigation__pay-label-switch {
+    line-height: inherit;
+  }
+  .mts2-section-hero__mobile-bg {
+    display: none;
+  }
+  .mts2-section-hero {
+    background-image: url('../img/credit-pay/mts2-credit-pay-main.png'),
+      linear-gradient(-247deg, #ffeeb8, #fff8e1);
+    background-repeat: no-repeat;
+    background-position: 81% center;
+    padding: 70px 0 168px;
+    &__btn {
+      font-family: 'Lato';
+      font-size: 16px;
+      font-weight: 900;
+      letter-spacing: -0.1px;
+      text-align: center;
+      color: $white;
+      border-radius: 4px;
+      background-color: $pinkish-red;
+      padding: 25px 40px;
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      margin-top: 60px;
+      -webkit-transition: 200ms all ease;
+      transition: 200ms all ease;
+    }
+    &__subtext {
+      opacity: 0.5;
+      font-family: Lato;
+      font-size: 16px;
+      line-height: 1.69;
+      letter-spacing: -0.1px;
+      color: $black;
+    }
+    &__percent {
+      font-family: 'Futura New';
+      font-size: 58px;
+      letter-spacing: -1px;
+      color: $black;
+      margin-bottom: 0;
+      line-height: 58px;
+      margin-top: 25px;
+    }
+    &__percent-span {
+      font-size: 28px;
+      margin-left: -5px;
+    }
+    &__percent-span-middle {
+      letter-spacing: -4.5px;
+      font-size: 58px;
+      margin-left: -7px;
+      margin-right: 8px;
+    }
+    &__percent-span_3 {
+      font-size: 28px;
+      // font-family: "ALSRubl";
+    }
+    &__wrapper {
+      max-width: 500px;
+      text-align: left;
+      .mts2-section-hero__heading {
+        font-family: 'Futura New';
+        font-size: 62px;
+        font-weight: bold;
+        line-height: 68px;
+        letter-spacing: -0.2px;
+
+        color: $black;
+      }
+      .mts2-section-hero__upper-parag {
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: -0.1px;
+        color: $black;
+        margin-bottom: 24px;
+      }
+    }
+  }
+  .mts2-section-tab-nav {
+    background-color: $white;
+  }
+}
+
+.mts2-section-perks {
+  margin-top: 115px;
+  margin-bottom: 160px;
+  &__heading {
+    font-family: 'Futura New';
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 1.47;
+    letter-spacing: 0px;
+    text-align: center;
+    color: $black;
+    margin-bottom: 48px;
+  }
+  &__main {
+    font-family: 'Futura New';
+    font-size: 58px;
+    letter-spacing: -1.3px;
+    text-align: center;
+    color: $pinkish-red;
+    line-height: 44px;
+    margin-bottom: 5px;
+    span {
+      font-size: 28px;
+      font-weight: 200;
+    }
+  }
+  &__subtext {
+    opacity: 0.5;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.69;
+    letter-spacing: -0.1px;
+    text-align: center;
+    color: $black;
+  }
+}
+
+.mts2-section-calculator {
+  &__btn {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: -0.1px;
+    text-align: center;
+    color: $white;
+    border-radius: 4px;
+    background-color: $pinkish-red;
+    padding: 25px 40px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-top: 40px;
+    -webkit-transition: 200ms all ease;
+    transition: 200ms all ease;
+  }
+  &__calculator-wrapper {
+    border-radius: 4px;
+    background-color: $white;
+    border: solid 1px #ededed;
+    padding: 56px 8.5% 20px;
+  }
+  &__inner-left-wrapper {
+    max-width: 644px;
+  }
+  &__heading {
+    font-family: 'Futura New';
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 1.47;
+    letter-spacing: 0px;
+    text-align: left;
+    color: $black;
+    margin-bottom: 56px;
+  }
+  &__input-wrapper {
+    position: relative;
+    margin-bottom: 15px;
+    &_rouble::after {
+      content: url('../img/credit-pay/mts2-credit-pay-input-rouble.png');
+      position: absolute;
+      right: 33px;
+      top: 33px;
+    }
+    &_month::after {
+      content: url('../img/credit-pay/mts2-credit-pay-input-month.png');
+      position: absolute;
+      right: 33px;
+      top: 33px;
+    }
+  }
+  &__text-input {
+    border-radius: 4px;
+    background-color: #fafafa;
+    border: solid 1px #d8d8d8;
+    padding: 32px 29px 17px;
+    font-family: 'Lato';
+    font-size: 18px;
+    letter-spacing: -0.1px;
+    text-align: left;
+    color: $black;
+    &:focus {
+      outline: none;
+    }
+  }
+  &__range-input {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.5em;
+  }
+  &__inside-label {
+    opacity: 0.6;
+    font-family: 'Lato';
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0px;
+    text-align: left;
+    color: $black;
+    position: absolute;
+    left: 30px;
+    top: 14px;
+  }
+  &__calc-price-text {
+    opacity: 0.5;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-align: left;
+    color: black;
+    margin-bottom: 0;
+  }
+  &__description {
+    margin: 30px 0;
+    font-size: 12px;
+    opacity: 0.5;
+  }
+  &__calc-price {
+    font-family: 'Futura New';
+    font-size: 58px;
+    letter-spacing: -1px;
+    text-align: left;
+    color: black;
+    line-height: 68px;
+    margin-bottom: 35px;
+    &
+      .mts2-section-calculator__calc-price-overpay
+      span:nth-last-child(3n):not(:first-child),
+    &
+      .mts2-section-calculator__calc-price-month
+      span:nth-last-child(3n):not(:first-child) {
+      padding-left: 10px;
+    }
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button,
+  input::-webkit-search-cancel-button {
+    display: none;
+    -webkit-appearance: none;
+  }
+  &__checkbox {
+    display: none;
+    &:checked + label:before {
+      content: ' ';
+      background-image: url(../img/cards/mts2-cards-checkbox.png);
+      background-repeat: no-repeat;
+      -webkit-transition: 200ms all ease-in-out;
+      transition: 200ms all ease-in-out;
+      display: inline-block;
+      position: relative;
+      top: 9px;
+      margin-right: 40px;
+      left: 0px;
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      width: 30px;
+      height: 30px;
+    }
+  }
+  &__checkbox-label {
+    font-family: 'Lato';
+    font-size: 16px;
+    line-height: 1.69;
+    letter-spacing: -0.1px;
+    text-align: left;
+    color: #000000;
+    cursor: pointer;
+    -webkit-transition: 200ms all ease-in-out;
+    transition: 200ms all ease-in-out;
+    &:before {
+      content: ' ';
+      background-image: url(../img/cards/mts2-cards-checkbox-un.png);
+      background-repeat: no-repeat;
+      display: inline-block;
+      position: relative;
+      top: 9px;
+      margin-right: 40px;
+      left: 0px;
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
+
+.mts2-section-steps {
+  text-align: center;
+  padding: 120px 0 0;
+  margin-bottom: 150px;
+  .mts2-section-steps__step {
+    .mts2-section-steps__img-wrapper {
+      height: 70px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+    .mts2-section-steps__header {
+      font-family: 'Futura New';
+      font-size: 21px;
+      font-weight: bold;
+      line-height: 1.29;
+      letter-spacing: -0.1px;
+      text-align: center;
+      color: $black;
+      width: 220px;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+    .mts2-section-steps__subtext {
+      opacity: 0.5;
+      font-family: 'Lato';
+      font-size: 16px;
+      line-height: 1.69;
+      letter-spacing: -0.1px;
+      text-align: center;
+      color: $black;
+      max-width: 300px;
+      margin: auto;
+    }
+  }
+}
+.mts2-section-conditions-first {
+  .mts2-section-conditions__img-wrapper {
+  }
+  .mts2-section-conditions__heading {
+    margin-bottom: 56px;
+  }
+  hr {
+    margin: 20px 0 40px;
+    margin-left: 15px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.69;
+    letter-spacing: -0.1px;
+  }
+  img {
+    margin-right: 40px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 1200px) {
+  .mts2-section-conditions-first {
+    h2,
+    p {
+      text-align: center;
+    }
+    img {
+      margin-right: 0;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+}
+.mts2-section-conditions {
+  &__wrapper {
+    -o-object-fit: contain;
+    object-fit: contain;
+    border-radius: 4px;
+    background-color: $white;
+    border: solid 1px hsl(0, 0%, 93%);
+    padding: 77px 0;
+    .row {
+      max-width: 880px;
+      margin: auto;
+    }
+  }
+
+  &__heading {
+    font-family: 'Futura New';
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 1.47;
+    letter-spacing: 0px;
+    text-align: center;
+    color: $black;
+    margin-bottom: 15px;
+    &_small {
+      font-family: 'Futura New';
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 1.47;
+      letter-spacing: 0px;
+      text-align: left;
+      color: $black;
+      margin-bottom: 15px;
+    }
+  }
+
+  &__sub-heading {
+    font-family: 'Futura New';
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.29;
+    letter-spacing: 0px;
+    text-align: left;
+    color: $black;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+  ul {
+    padding-left: 0;
+  }
+
+  &__tariffs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin-top: 35px;
+    & img {
+      margin-top: 10px;
+    }
+  }
+
+  &__tariffs-text {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.69;
+    letter-spacing: -0.1px;
+    text-align: left;
+    color: #000;
+    max-width: 249px;
+    margin-left: 29px;
+    transition: 200ms all ease-in-out;
+    outline: none;
+    border: 1px solid transparent;
+    padding: 10px;
+    transition: 200ms all ease-in-out;
+    & p {
+      transition: 200ms all ease-in-out;
+    }
+    &:hover p {
+      color: $turquoise-blue;
+      opacity: 1;
+    }
+    &:active p {
+      color: darken($turquoise-blue, 5%);
+      opacity: 1;
+    }
+    &:focus {
+      color: darken($turquoise-blue, 5%);
+      border-radius: 5px;
+      border: 1px solid $turquoise-blue;
+      outline: none;
+      opacity: 1;
+    }
+    &:visited p {
+      color: darken($pinkish-red, 5%);
+      opacity: 1;
+    }
+    &:hover:active {
+      border: 1px solid darken($turquoise-blue, 5%);
+    }
+  }
+
+  &__tariffs-size {
+    opacity: 0.5;
+    font-family: 'Lato';
+    font-size: 16px;
+    line-height: 1.69;
+    letter-spacing: -0.1px;
+    text-align: left;
+    color: $black;
+    margin-bottom: 0;
+  }
+
+  &__list-item {
+    font-family: 'Lato';
+    font-size: 16px;
+    line-height: 1.69;
+    letter-spacing: -0.1px;
+    text-align: left;
+    color: #888;
+    list-style: none;
+    margin-bottom: 20px;
+    display: flex;
+    // flex-wrap: wrap;
+    padding-left: 20px;
+    &:before {
+      content: url('../img/credit-pay/mts2-credit-li-bullet.png');
+      position: relative;
+      top: -2px;
+      margin-right: -6px;
+      left: -20px;
+    }
+  }
+  &__btn {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: -0.1px;
+    text-align: center;
+    color: $white;
+    border-radius: 4px;
+    background-color: $pinkish-red;
+    padding: 25px 40px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-top: 40px;
+    -webkit-transition: 200ms all ease;
+    transition: 200ms all ease;
+  }
+}
+
+.mts2-section-more {
+  padding: 100px 0 150px;
+  &__card-with-wrapper {
+    margin-bottom: 40px;
+  }
+  &__plastic-wrapper {
+    width: 0%;
+  }
+  &__plastic {
+    width: 100%;
+    -webkit-box-shadow: 0 0 15px -4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 15px -4px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    -webkit-transition: 250ms all ease-in-out;
+    transition: 250ms all ease-in-out;
+    &_mobile {
+      position: absolute;
+      top: -47px;
+      max-width: 160px;
+    }
+  }
+  div.col-md-12 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  &__heading {
+    font-family: 'Futura New';
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 1.47;
+    letter-spacing: 0px;
+    text-align: center;
+    color: $black;
+    margin-bottom: 60px;
+    -webkit-transition: 230ms all ease-in-out;
+    transition: 230ms all ease-in-out;
+  }
+  &__subheading {
+    font-family: 'Futura New';
+    max-width: 300px;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.29;
+    letter-spacing: 0px;
+    text-align: left;
+    color: $black;
+    -webkit-transition: 230ms all ease-in-out;
+    transition: 230ms all ease-in-out;
+    // margin-right: 81px;
+  }
+
+  &__card {
+    margin: auto;
+    border-radius: 4px;
+    background-color: $white;
+    // border: solid 1px hsl(0, 0%, 93%);
+    -webkit-box-shadow: 0 0 11px -2px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 11px -2px rgba(0, 0, 0, 0.08);
+    padding: 40px 38px;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    -webkit-transition: 230ms all ease-in-out;
+    transition: 230ms all ease-in-out;
+    min-height: 367px;
+    margin-bottom: 40px;
+    -ms-flex-line-pack: justify;
+    align-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: 100%;
+    background-position-y: 110px;
+    .row {
+      width: 100%;
+    }
+    &_zero {
+      background-image: url(../img/credit-pay/mts2-credit-pay-woman-1.png);
+    }
+    &_one {
+      background-image: url(../img/credit-pay/mts2-credit-pay-plastic-2.png);
+      &:hover {
+        background-position-y: 97px;
+      }
+    }
+    &_two {
+      background-image: url(../img/credit-pay/mts2-credit-pay-woman-2.png);
+    }
+    &:hover {
+      background-color: $pinkish-red;
+      -webkit-box-shadow: 0 25px 30px 0 hsla(0, 0%, 58%, 0.25);
+      box-shadow: 0 25px 30px 0 hsla(0, 0%, 58%, 0.25);
+    }
+    &:hover .mts2-section-more__subheading,
+    &:hover .mts2-section-more__subtext,
+    &:hover .mts2-section-more__percent,
+    &:hover .mts2-section-more__percent-span_1,
+    &:hover .mts2-section-more__percent-span_3,
+    &:hover .mts2-section-more__percent-span {
+      color: $white;
+    }
+  }
+
+  &__percent {
+    font-family: 'Futura New';
+    letter-spacing: -1px;
+    text-align: left;
+    color: $pinkish-red;
+    font-size: 28px;
+    margin-top: 50px;
+    -webkit-transition: 230ms all ease-in-out;
+    transition: 230ms all ease-in-out;
+  }
+
+  &__percent-span {
+    font-size: 28px;
+    letter-spacing: -1px;
+    text-align: left;
+    color: $pinkish-red;
+    -webkit-transition: 230ms all ease-in-out;
+    transition: 230ms all ease-in-out;
+  }
+
+  &__percent-span_1 {
+    font-family: 'Futura New';
+    letter-spacing: -1px;
+    text-align: left;
+    color: $pinkish-red;
+    font-size: 58px;
+  }
+
+  &__percent-span_3 {
+  }
+
+  &__subtext {
+    opacity: 0.5;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.38;
+    letter-spacing: -0.1px;
+    text-align: left;
+    color: $black;
+    max-width: 196px;
+    margin-bottom: 0;
+    -webkit-transition: 230ms all ease-in-out;
+    transition: 230ms all ease-in-out;
+  }
+}
+
+.mts2-section-credit-page-2 {
+  &__card-wrapper {
+    margin-bottom: 20px;
+  }
+  .mts2-section-more__card:hover .mts2-section-more__subheading,
+  .mts2-section-more__card:hover .mts2-section-more__subtext,
+  .mts2-section-more__card:hover .mts2-section-more__percent,
+  .mts2-section-more__card:hover .mts2-section-more__percent-span_1,
+  .mts2-section-more__card:hover .mts2-section-more__percent-span_3,
+  .mts2-section-more__card:hover .mts2-section-more__percent-span {
+    color: $black;
+  }
+  div.col-md-12 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  &__app-download {
+    opacity: 0.5;
+  }
+  &__link {
+    font-family: 'Futura New';
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 31px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: $turquoise-blue;
+  }
+  &__list-item {
+    font-family: 'Lato';
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    text-align: left;
+    color: $black;
+    align-items: baseline;
+    span {
+      opacity: 0.5;
+      font-family: 'Lato';
+      font-size: 14px;
+      line-height: 1.93;
+      letter-spacing: -0.1px;
+      margin-left: 5px;
+    }
+  }
+  ul {
+    padding-left: 0;
+  }
+  a {
+    color: $turquoise-blue;
+    &:hover {
+      color: $black;
+    }
+  }
+  &__card {
+    background-image: url(../img/credit-pay/mts2-credit-pay-woman-3.png);
+    cursor: auto;
+    min-height: 290px;
+    padding: 40px;
+    text-align: left;
+    &_small {
+      background-image: none;
+    }
+    &:hover {
+      background-color: $white;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+  }
+  &__heading {
+    font-family: 'Futura New';
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 1.47;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 48px;
+    margin-top: 85px;
+  }
+  &__btn {
+    background-color: #ea212e;
+    border: none;
+    padding: 11px 25px 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #fff;
+    display: inline-block;
+    margin-top: 30px;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: -0.1px;
+  }
+  &__btn-2 {
+    background-color: transparent;
+    border: none;
+    padding: 11px 25px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 0;
+    font-family: 'Futura New';
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2.81;
+    letter-spacing: 0px;
+    text-align: center;
+    color: $turquoise-blue;
+    transition: 200ms all ease-in-out;
+  }
+  &:hover {
+    color: darken($turquoise-blue, 5%);
+  }
+}
+
+.mts2-section-credit-page-3 {
+  padding-top: 100px;
+  padding-bottom: 150px;
+  &__wrapper .row {
+    max-width: 893px;
+  }
+  &__tariffs {
+    margin-top: 30px;
+    div {
+      max-width: 350px;
+    }
+    p {
+      margin-bottom: 0;
+    }
+  }
+  &__btn.collapsed {
+    &::after {
+      -webkit-transform: rotate(90deg);
+      transform: rotate(90deg);
+    }
+  }
+  &__btn {
+    font-family: 'Futura New';
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2.81;
+    letter-spacing: 0px;
+    text-align: left;
+    color: $turquoise-blue;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    width: 232px;
+    margin-top: 25px;
+
+    &::after {
+      content: url(../img/mts2-footer-triangle.png);
+      position: absolute;
+      -webkit-transform: rotate(270deg);
+      transform: rotate(270deg);
+      -webkit-transition: 200ms all ease;
+      transition: 200ms all ease;
+      -webkit-transform-origin: center;
+      transform-origin: center;
+      right: 0;
+    }
+  }
+  &__collapse {
+  }
+}
+.mts2-section-credit-page-3a {
+  padding-bottom: 0;
+  .mts2-super-hover-card__wrapper {
+    position: relative;
+    max-width: 320px;
+    width: 100%;
+    margin: auto;
+    height: 200px;
+    transform-style: preserve-3d;
+    perspective: 1200px;
+    border-radius: 7px;
+  }
+  .mts2-super-hover-card__zones {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 200px;
+    max-width: 320px;
+    width: 100%;
+  }
+  .mts2-super-hover-card {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: rgba(0, 0, 0, 0);
+    height: 200px;
+    max-width: 320px;
+    width: 100%;
+    transition: 500ms all ease-in-out;
+    border-radius: 16px;
+  }
+  .mts2-super-hover-card img {
+    border-radius: 16px;
+  }
+  .mts2-super-hover-card__zone {
+    width: 50%;
+    position: relative;
+    z-index: 4;
+    cursor: pointer;
+  }
+  .mts2-super-hover-card__zone_topl:hover ~ .mts2-super-hover-card {
+    transform: rotateX(-8deg) rotateY(10.4deg) scale3d(1.04, 1.04, 1);
+    box-shadow: 0px 20px 39px -16px rgba(106, 116, 121, 0.74);
+  }
+  .mts2-super-hover-card__zone_topr:hover ~ .mts2-super-hover-card {
+    transform: rotateX(-8deg) rotateY(-10.4deg) scale3d(1.04, 1.04, 1);
+    box-shadow: 0px 20px 39px -16px rgba(106, 116, 121, 0.74);
+  }
+  .mts2-super-hover-card__zone_bottoml:hover ~ .mts2-super-hover-card {
+    transform: rotateX(8deg) rotateY(10.4deg) scale3d(1.04, 1.04, 1);
+    box-shadow: 0px 20px 39px -16px rgba(106, 116, 121, 0.74);
+  }
+  .mts2-super-hover-card__zone_bottomr:hover ~ .mts2-super-hover-card {
+    transform: rotateX(8deg) rotateY(-10.4deg) scale3d(1.04, 1.04, 1);
+    box-shadow: 0px 20px 39px -16px rgba(106, 116, 121, 0.74);
+  }
+}
+
+// MEDIA QUERIES -----------------------------||--------------------------------------START>
+
+@media (max-width: 1300px) {
+  .mts-hash-0003a .mts2-section-hero {
+    background-position: 130% center;
+    padding: 50px;
+  }
+  .mts2-section-perks__main {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .mts2-section-more__card-with-wrapper {
+    margin-bottom: 80px;
+  }
+  .mts2-section-more__plastic-wrapper {
+    width: 100%;
+  }
+  .mts-hash-0003a .mts2-section-hero {
+    background-position: 140% center;
+    padding: 50px;
+  }
+  .mts-hash-0003a .mts2-section-hero__wrapper .mts2-section-hero__heading {
+    font-size: 32px;
+  }
+  .mts-hash-0003a .mts2-section-hero__percent {
+    font-size: 32px;
+    margin-top: 0;
+    line-height: 35px;
+  }
+
+  .mts2-section-more__card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    padding-top: 123px;
+    background: none;
+    max-width: 280px;
+    margin: auto;
+    margin-bottom: 40px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: inherit;
+    text-align: center;
+    background-color: white;
+  }
+  .mts2-section-credit-page-2__card {
+    margin-bottom: 0;
+  }
+  .mts2-section-credit-page-2__card_small {
+    padding-top: 50px;
+  }
+  .mts2-section-credit-page-2__app-download {
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .mts-hash-0003a .mts2-footer__app-download a {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .mts2-section-more__card_zero {
+    background-image: url(../img/mts2-card-credit__percent_work-pay-mobile.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+  .mts2-section-more__card_one {
+    padding-top: 80px;
+  }
+  .mts2-section-more__card_two {
+    background-image: url(../img/credit-pay/mts2-credit-pay-main-vklad-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+  .mts2-section-more__subheading {
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .mts2-section-more__subtext,
+  .mts2-section-more__percent {
+    text-align: center;
+    margin: auto;
+  }
+  .mts2-section-more__card:hover .mts2-section-more__plastic {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    -webkit-box-shadow: 0px 37px 42px -5px rgba(0, 0, 0, 0.36);
+    box-shadow: 0px 37px 42px -5px rgba(0, 0, 0, 0.36);
+  }
+}
+
+@media (max-width: 900px) {
+  .mts-hash-0003a .mts2-section-hero {
+    background-position: 170% center;
+  }
+  .mts2-section-form__form-wrapper .bid__form {
+    padding: 0 0% 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mts-hash-0003a .mts2-section-hero__wrapper .mts2-section-hero__upper-parag {
+    font-family: 'Futura New';
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: 900;
+    margin-bottom: 0;
+  }
+  .mts-hash-0003a .mts2-section-hero__wrapper .mts2-section-hero__heading {
+    font-size: 30px;
+    line-height: 33px;
+    margin-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mts2-section-conditions__wrapper {
+    padding: 40px 0;
+    border-radius: 0px;
+  }
+  .mts2-section-credit-page-3a {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .mts2-footer__app-download a {
+    display: block;
+    padding: 15px;
+    border: 2px solid rgba(80, 80, 80, 0.44);
+    border-radius: 5px;
+    margin-right: 15px;
+    position: relative;
+    width: 60px;
+    margin: auto;
+    margin-top: 8px;
+  }
+  .mts2-section-form__form-wrapper .bid__form-chapter {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .mts2-section-perks__subtext {
+    margin-bottom: 40px;
+  }
+  .mts2-section-perks {
+    margin: 60px 0;
+  }
+  .mts2-section-perks__main {
+    font-size: 38px;
+    span {
+      font-size: 18px;
+    }
+  }
+
+  .mts2-section-conditions .container,
+  .mts2-section-calculator .container {
+    padding: 0;
+    width: 100%;
+  }
+  .mts2-section-conditions__heading {
+    font-size: 28px;
+    text-align: left;
+  }
+  .mts2-section-conditions__tariffs-size {
+    font-size: 13px;
+  }
+  .mts2-section-conditions__sub-heading {
+    margin-bottom: 14px;
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  .mts2-section-conditions__list-item {
+    font-size: 13px;
+    display: block;
+  }
+  .mts2-section-calculator__calculator-wrapper {
+    border-radius: 0;
+    border: none;
+    border-top: solid 1px #ededed;
+    border-bottom: solid 1px #ededed;
+    padding: 56px 20px 20px;
+  }
+  .mts2-section-calculator__checkbox-label {
+    font-size: 13px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .mts2-section-calculator__checkbox-label span {
+    max-width: 210px;
+  }
+  .mts2-section-calculator__checkbox-label:before {
+    margin-right: 10px;
+    left: 0px;
+    top: -7px;
+    width: 31px;
+  }
+  .mts2-section-calculator__checkbox:checked + label:before {
+    margin-right: 10px;
+    left: 0px;
+    top: -7px;
+    width: 31px;
+  }
+  .mts2-section-more__card.mts2-section-credit-page-2__card {
+    padding-top: 50px;
+  }
+  .mts-hash-0003a .mts2-section-hero__wrapper {
+    text-align: center;
+  }
+  .mts-hash-0003a .mts2-section-hero__wrapper .mts2-section-hero__upper-parag {
+    font-family: 'Futura New';
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 0;
+  }
+  // .mts-hash-0003a .mts2-section-hero__wrapper .mts2-section-hero__heading {
+  // 	font-size: 20px;
+  // 	margin-bottom: 32px;
+  // }
+  .mts-hash-0003a .mts2-section-hero__mobile-bg {
+    display: block;
+    width: 100%;
+  }
+  .mts-hash-0003a .mts2-section-hero {
+    background-image: none;
+    background: linear-gradient(-247deg, #ffeeb8, #fff8e1);
+  }
+  .mts-hash-0003a .mts2-section-hero__btn {
+    margin-top: 10px;
+  }
+  .mts-hash-0003a .mts2-section-hero__subtext {
+    font-size: 14px;
+  }
+  .mts2-section-calculator__heading {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+  .mts2-section-calculator__btn {
+    margin-top: 0px;
+  }
+  .mts2-section-more {
+    padding: 40px 0;
+  }
+  .mts2-section-more__heading {
+    font-size: 28px;
+    line-height: 1;
+    margin-bottom: 30px;
+  }
+
+  .mts2-section-more__percent {
+    font-size: 28px;
+    margin-top: 40px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 544px) {
+  .mts-hash-0003a .mts2-section-hero {
+    padding: 40px 0;
+  }
+  .mts2-section-steps {
+    padding: 60px 0;
+  }
+  .mts-hash-0003a .mts2-section-conditions__tariffs-text {
+    font-size: 13px;
+    line-height: 1.39;
+    margin-left: 14px;
+  }
+  .mts2-section-conditions__btn {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+}

@@ -1,0 +1,78 @@
+// These comments are only one line long each.
+$pinkish-red: #ea212e;
+$turquoise-blue: #00bcc7;
+$white: #ffffff;
+$black: #000000;
+$white-two: #fbfbfb;
+$black-two: #202020;
+$greyish-brown: #535151;
+$greyish-brown-two: #505050;
+$black-three: #181818;
+
+.mts-hash-0003a {
+  .mts-hash-0003a__content .mts2-section-credit-selector .container .mts2-card-credit {
+    display: block;
+  }
+  .mts2-plastic-card-nav {
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #e2e2e2;
+    position: relative;
+    padding: 0 15px;
+  }
+.mts2-plastic-card-nav .mts2-plastic-card-nav__tab-switch {
+    padding: 20px 0;
+    color: #000;
+    opacity: 1;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.1px;
+    margin-right: 55px;
+    line-height: 24px;
+}
+.mts2-plastic-card-nav .mts2-plastic-card-nav__tab-switch.active {
+    color: #888;
+}
+.mts-hash-0003a__content .mts2-section-credit-selector .container .mts2-card-credit .mts2-card-credit__btn {
+  z-index: 10;
+  padding: 18px 37px;
+  font-family: "Futura New";
+  font-size: 17px;
+  margin-top: 0;
+  display: block;
+  max-width: 229px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  opacity: 1;
+}
+.mts-hash-0003a__content .mts2-section-credit-selector .container .mts2-card-credit .mts2-card-credit__heading {
+   font-family: "Futura New";
+   max-width: 270px;
+   font-size: 21px;
+   font-weight: bold;
+   line-height: 1.29;
+   letter-spacing: 0px;
+   text-align: left;
+   margin-bottom: 15px;
+   margin-top: 25px;
+}
+.mts-hash-0003a__content .mts2-section-credit-selector .container .mts2-card-credit .mts2-card-credit__subheading {
+    color: #888;
+    font-family: 'Lato';
+    font-size: 16px;
+    margin-bottom: 26px;
+    transition: 250ms all ease-in-out;
+}
+}
+
+@media (max-width: 515px)
+{
+  .mts-hash-0003a .mts-hash-0003a__content .mts2-section-credit-selector .container .mts2-card-credit .mts2-card-credit__heading {
+padding-left: 10px;
+padding-right: 10px;
+}
+.mts-hash-0003a__content .mts2-section-credit-selector .container .mts2-card-credit .mts2-card-credit__btn {
+  margin: auto;
+}
+}
