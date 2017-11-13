@@ -45,3 +45,17 @@
     -o-transition: color .2s ease;
     transition: color .2s ease;
 }
+
+.mts-hash-0003a .mtsbank-country-select__wrapper {
+    background-image: url(../img/androidpay/phone-androidpay.jpg);
+}
+
+.mts-hash-0003a .mts2-section-credit-page-2__card {
+    height: 100%;
+}
+
+@media (max-width: 1000px) {
+    .mts-hash-0003a .mtsbank-country-select__wrapper {
+        background-image: none;
+    }
+}
